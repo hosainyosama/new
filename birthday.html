@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Taif!</title>
+    <style>
+        body {
+            background-image: url('https://drive.google.com/file/d/1aUMOD2PO7LSu6o-DDdNM5zHuy3XNNn7t/view?usp=sharing');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            padding: 50px;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 4em;
+            color: #ffeb3b;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        p {
+            font-size: 1.8em;
+            color: #ffffff;
+        }
+        .container {
+            background-color: rgba(255, 69, 0, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+            position: relative;
+            animation: floatContainer 6s ease-in-out infinite;
+        }
+        .balloons {
+            font-size: 2.5em;
+            color: #ffff00;
+            position: absolute;
+            animation: floatBalloons 5s ease-in-out infinite;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4;
+            }
+            to {
+                text-shadow: 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4;
+            }
+        }
+        @keyframes floatContainer {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        @keyframes floatBalloons {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-30px);
+            }
+        }
+        .balloon-1 {
+            left: 10%;
+            animation-delay: 0s;
+        }
+        .balloon-2 {
+            left: 30%;
+            animation-delay: 1s;
+        }
+        .balloon-3 {
+            left: 50%;
+            animation-delay: 2s;
+        }
+        .balloon-4 {
+            left: 70%;
+            animation-delay: 3s;
+        }
+        .balloon-5 {
+            left: 90%;
+            animation-delay: 4s;
+        }
+        img {
+            border-radius: 20px;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="path_to_your_music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+        <h1>Happy Birthday, Taif!</h1>
+        <p class="balloons balloon-1">🎈</p>
+        <p class="balloons balloon-2">🎉</p>
+        <p class="balloons balloon-3">🎂</p>
+        <p class="balloons balloon-4">🥳</p>
+        <p class="balloons balloon-5">🎁</p>
+        <p>Dear Taif, I hope your day is filled with all the love, joy, and happiness you bring to my life every day. You are my sunshine, my joy, and my everything. Happy Birthday!</p>
+    </div>
+</body>
+</html>
